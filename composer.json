@@ -1,0 +1,23 @@
+{
+    "name": "aline/php-avancado",
+    "description": "Busca de cep online",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Joao Erick",
+            "email": "jerick1415@outlook.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Search": "src/"
+        },
+        "psr-4": {
+            "Aline\\PhpAvancado\\" : "src/"
+        }
+    }
+}
