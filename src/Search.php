@@ -13,3 +13,7 @@ class Search{
         return (array) json_decode($get);
     }
 }
+
+$arr = new Search();
+$result = $arr->getAddressFromZipcode('48700000');
+print_r($result);
